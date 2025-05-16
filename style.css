@@ -420,6 +420,7 @@ article .icon {
   height: 2.5rem;
 }
 
+
 /* FOOTER SECTION */
 
 footer {
@@ -429,4 +430,68 @@ footer {
 
 footer p {
   text-align: center;
+}
+
+#contact {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+#contact {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.contact-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.contact-card {
+  width: 100%;
+  max-width: 600px;
+  border: 2px solid #ccc;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 1rem;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.contact-info-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.contact-info-container img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
 }
